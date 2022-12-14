@@ -32,6 +32,10 @@ header{
 
 /*main-jumbo*/
 
+.jumbotron-content{
+    display: flex;
+}
+
 
 /*main-section-top*/
 
