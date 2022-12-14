@@ -19,13 +19,16 @@
 /*header*/
 header{
     width: 100vw;
-    
-
-    /* debug */
-    background-color: aquamarine;
-    height: 200px
+    display: flex;
+    align-items: center;
+    height: 5rem;
 }
 
+.left-nav, .right-nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
 /*main-jumbo*/
 
