@@ -10,3 +10,24 @@
 	clear: both;
 	display: table;
 }
+
+.button-blue{
+	border: none;
+	background-color: blue;
+	color: white;
+	padding: 5px 14px;
+}
+
+.button-white{
+	border: gray;
+	color: black;
+}
+
+.li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
