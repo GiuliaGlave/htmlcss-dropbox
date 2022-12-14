@@ -56,6 +56,7 @@ h1{
 
 /*main-section-top*/
 
+
 /*sponsor*/
 .sponsor{
     width: 100vw;
@@ -73,7 +74,35 @@ h1{
 footer{
     color: white;
     width: 100vw;
-    height: 30px;
-    height: 300px;
     background-color: black; 
 }
+
+h4{
+	font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.footer-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    color: white;
+    font-size: 13px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 3rem 0;
+
+}
+
+.footer-bottom > button {
+	color: inherit;
+    border: none;
+    background-color: transparent;
+
+}
+
