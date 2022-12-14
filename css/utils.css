@@ -12,10 +12,11 @@
 }
 
 .button-blue{
-	border: none;
-	background-color: blue;
-	color: white;
-	padding: 5px 14px;
+	font-size: 13px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;
 }
 
 .button-white{
@@ -42,4 +43,9 @@ nav{
 .link-nav{
 	display: flex;
     gap: 2rem;
+}
+
+p{
+	font-size: 14px;
+    line-height: 1;
 }
