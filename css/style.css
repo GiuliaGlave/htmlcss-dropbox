@@ -8,11 +8,10 @@
 
 .small-container{
     width: 50vw;
-    
+    height: 50rem;
     margin: auto;
     /* debug */
     background-color: rgb(0, 166, 255);
-    height: 300px;
 }
 
 /*header*/
@@ -59,18 +58,32 @@ h1{
 
 /*sponsor*/
 .sponsor{
-    width: 100vw;
-    margin: 0;
+   display: flex;
+   justify-content: space-between;
     
     /* debug */
     background-color: red;
-    height: 300px;
+    
+}
+
+.sponsor-left, .sponsor-right, .sponsor-text{
+    display: flex;
+    width: calc(100% / 3);
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+
+.square{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    background-color: yellow;
 }
 
 /* main-section-bottom */
 
 /* footer */
-
 footer{
     color: white;
     width: 100vw;
