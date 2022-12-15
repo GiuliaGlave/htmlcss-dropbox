@@ -8,15 +8,20 @@
 
 .small-container{
     width: 50vw;
-    height: 50rem;
     margin: auto;
     /* debug */
     background-color: rgb(0, 166, 255);
 }
 
 /*header*/
+/* 
+DAI POSITION FIXED
+*/
 header{
     width: 100vw;
+/* 
+NON DOVREBBE SERVIRE FLEX
+ */
     display: flex;
     align-items: center;
     height: 4rem;
@@ -54,7 +59,38 @@ h1{
 }
 
 /*main-section-top*/
+h2{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 5rem;
+    padding: 4rem 0 1.5rem;
+}
+.select{
+    border: solid 2px;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
 
+/* RIVEDI */
+/* select .select-on{
+    border: red 5px;
+} */
+
+.col-3{
+display: flex;
+gap: 1rem;
+}
+
+.col{
+  border: solid; 
+  display: block; 
+}
+
+/* .top-col{
+    text-align: center;
+} */
 
 /*sponsor*/
 .sponsor{
@@ -90,7 +126,7 @@ footer{
     background-color: black; 
 }
 
-h4{
+h3{
 	font-size: 20px;
     font-weight: bold;
     padding-bottom: 1rem;
