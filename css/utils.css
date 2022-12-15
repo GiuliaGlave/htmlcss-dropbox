@@ -16,7 +16,7 @@
     border: none;
     background-color: blue;
     color: white;
-    padding: 6px 12px;
+    padding: 8px 13px 6px;
 }
 
 .button-white{
@@ -28,7 +28,7 @@ li{
 	list-style: none;
 }
 
-a{
+a:not(.buy-now){
 	text-decoration: none;
 	color: inherit;
 }
@@ -48,4 +48,12 @@ nav{
 p{
 	font-size: 14px;
     line-height: 1;
+}
+
+span{
+	font-size: 12px;
+}
+
+.check{
+	color: rgb(66, 66, 212);
 }

@@ -60,39 +60,55 @@ h1{
 
 /*main-section-top*/
 h2{
-    font-weight: 600;
-    font-size: 38px;
+    font-weight: 700;
+    font-size: 32px;
     line-height: 5rem;
-    padding: 4rem 0 1.5rem;
-}
-.select{
-    border: solid 2px;
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
 }
 
-/* RIVEDI */
-/* select .select-on{
-    border: red 5px;
-} */
-
-.col-3{
-display: flex;
-gap: 1rem;
-
+.select-plan{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 0;
 }
 
-.col{
+
+.all-3-option{
+    display: flex;
+    gap: 2rem;
+    font-size: 13px;
+}
+
+.col-option{
   border: solid; 
   display: block; 
 }
 
-/* .top-col{
+.top-col{
     text-align: center;
-} */
+    border-bottom: solid;
+    padding: 0.3rem;
+}
 
+.main-col{
+    padding: 2rem 1rem 2rem;
+}
+
+.price{
+    font-weight: 700;
+}
+.price-time{
+    color: #333333;
+}
+
+.padding-plan{
+    padding: 1rem 0;
+}
+
+ hr{
+    border: 1 0 0 solid;
+    width: 20%;
+}
 /* business features */
 .business-features{
     display: flex;
