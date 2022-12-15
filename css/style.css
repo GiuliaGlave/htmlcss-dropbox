@@ -9,11 +9,14 @@
 .small-container{
     width: 50vw;
     margin: auto;
+
+
     /* debug */
     background-color: rgb(0, 166, 255);
 }
 
 /*header*/
+
 /* 
 DAI POSITION FIXED
 */
@@ -39,13 +42,6 @@ NON DOVREBBE SERVIRE FLEX
     display: flex;
 }
 
-h1{
-    font-weight: 800;
-    font-size: 58px;
-    line-height: 5rem;
-    padding: 4rem 0 1.5rem;
-}
-
 .img-col{
     min-width: 70%;
 }
@@ -59,29 +55,22 @@ h1{
 }
 
 /*main-section-top*/
-h2{
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 5rem;
-}
-
 .select-plan{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding: 2rem 0;
 }
 
 
-.all-3-option{
+.container-plan-option{
     display: flex;
     gap: 2rem;
     font-size: 13px;
 }
 
-.col-option{
+.col{
   border: solid; 
   display: block; 
+  margin-top: 3rem;
 }
 
 .top-col{
@@ -109,6 +98,16 @@ h2{
     border: 1 0 0 solid;
     width: 20%;
 }
+/* contatta ufficio vendite */
+
+.ufficio-vendite {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* trova partner */
+
 /* business features */
 .business-features{
     display: flex;
@@ -148,12 +147,6 @@ footer{
     color: white;
     width: 100vw;
     background-color: black; 
-}
-
-h3{
-	font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 1rem;
 }
 
 .footer-column {

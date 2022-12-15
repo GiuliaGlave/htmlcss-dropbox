@@ -11,6 +11,29 @@
 	display: table;
 }
 
+h1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 5rem;
+    padding: 4rem 0 1.5rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 5rem;
+}
+
+h3{
+	font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+h4{
+	font-weight: bold;
+}
+
 .button-blue{
 	font-size: 13px;
     border: none;
