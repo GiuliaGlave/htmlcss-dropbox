@@ -81,6 +81,7 @@ h2{
 .col-3{
 display: flex;
 gap: 1rem;
+
 }
 
 .col{
@@ -91,6 +92,13 @@ gap: 1rem;
 /* .top-col{
     text-align: center;
 } */
+
+/* business features */
+.business-features{
+    display: flex;
+}
+
+
 
 /*sponsor*/
 .sponsor{
