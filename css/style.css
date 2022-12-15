@@ -38,8 +38,9 @@ NON DOVREBBE SERVIRE FLEX
 
 /*main-jumbo*/
 
-.jumbotron-content{
+.img-text-jumbo{
     display: flex;
+    margin-top: 3rem;
 }
 
 .img-col{
@@ -59,7 +60,6 @@ NON DOVREBBE SERVIRE FLEX
     display: flex;
     align-items: center;
 }
-
 
 .container-plan-option{
     display: flex;
@@ -86,6 +86,7 @@ NON DOVREBBE SERVIRE FLEX
 .price{
     font-weight: 700;
 }
+
 .price-time{
     color: #333333;
 }
@@ -98,8 +99,8 @@ NON DOVREBBE SERVIRE FLEX
     border: 1 0 0 solid;
     width: 20%;
 }
-/* contatta ufficio vendite */
 
+/* contatta ufficio vendite */
 .ufficio-vendite {
     display: flex;
     justify-content: space-between;
@@ -107,13 +108,30 @@ NON DOVREBBE SERVIRE FLEX
 }
 
 /* trova partner */
+.img-text-partner{
+    display: flex;
+    gap: 2rem;
+    margin-top: 8rem;
+}
+
+.img-partner{
+    width: 75%;
+}
+
+.text-partner{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
 /* business features */
 .business-features{
     display: flex;
 }
-
-
 
 /*sponsor*/
 .sponsor{
