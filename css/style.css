@@ -129,12 +129,23 @@ NON DOVREBBE SERVIRE FLEX
 }
 
 /* business features */
-.business-features{
-    display: flex;
+.operazioni-business{
+    margin-top: 6rem;
 }
 
-/*sponsor*/
-.sponsor{
+.business-feature{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between
+}
+
+.card-feature{
+    width: calc(100% / 3 - 2rem);
+}
+
+/*partner*/
+.partner{
    display: flex;
    justify-content: space-between;
     
