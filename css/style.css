@@ -98,9 +98,7 @@ header{
 
 .main-col{
     padding: 2rem 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+}
 
 .price{
     font-weight: 700;
@@ -167,20 +165,20 @@ header{
     width: calc(100% / 3 - 2rem);
 }
 
-.ad-business{
-    padding: 9rem 0 3rem;
+.business-bottom-section{
+    height: 25rem;
+    display: flex;
+    gap: 2rem;
     width: 66%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*partner*/
 .partner-container{
    display: flex;
    justify-content: space-between;
-   width: 100vw;
-    
-    /* debug */
-    background-color: #f5f5f5;
-    
+   width: 100vw;    
 }
 
 .partner-container > * {
@@ -195,7 +193,6 @@ header{
     display: flex;
     width: 50%;
     min-height: 50%;
-    background-color: yellow;
     object-fit: contain;
     justify-content: center;
     align-items: center;
@@ -224,7 +221,8 @@ header{
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 3rem;
+    background-color: #f5f5f5;
 }
 .logo-partner{
     width: 50%;

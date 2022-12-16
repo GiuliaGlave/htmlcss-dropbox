@@ -42,8 +42,8 @@ h4{
 }
 
 .button-white{
+	border: solid thin;
 	font-size: 14px;
-	border: gray;
 	color: black;
 	padding: 8px 13px 6px;
 }
