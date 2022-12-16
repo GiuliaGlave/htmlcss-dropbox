@@ -176,6 +176,23 @@ NON DOVREBBE SERVIRE FLEX
 
 /* main-section-bottom */
 
+.free-trial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.text-free-trial{
+    width: 50%;
+}
+/* faq */
+.faq{
+    border-top: #333333 1px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
 /* footer */
 footer{
     color: white;
@@ -206,3 +223,8 @@ footer{
 
 }
 
+.hr-faq{
+    width: 100%;
+    border-color: #333333;
+    height: 0;
+}
