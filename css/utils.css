@@ -63,7 +63,7 @@ nav{
 	margin: 0 1rem;
 }
 
-.link-nav{
+.link-nav-left, .link-nav-right{
 	display: flex;
     gap: 2rem;
 }
@@ -79,4 +79,11 @@ span{
 
 .check{
 	color: #0061ff;
+}
+
+hr{
+    border-color: transparent;
+    border-bottom: solid thin lightgray;
+    height: 0;
+    width: 20%;
 }

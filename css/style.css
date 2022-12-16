@@ -20,7 +20,7 @@
 /*header*/
 header{
     width: 100vw;
-   /*  position: fixed; */
+    position: fixed;
     z-index: 1;
     background-color: white;
     padding: 1rem;
@@ -34,6 +34,7 @@ header{
     align-items: center;
     gap: 1rem;
 }
+
 
 /*main-jumbo*/
 
@@ -112,17 +113,6 @@ header{
     padding: 1rem 0;
 }
 
-.col .button-blue{
-    padding-left: 1rem;
-}
-
-hr{
-    border-color: transparent;
-    border-bottom: solid thin lightgray;
-    height: 0;
-    width: 20%;
-}
-
 /* contatta ufficio vendite */
 .ufficio-vendite {
     display: flex;
@@ -151,8 +141,8 @@ hr{
     margin-top: 2rem;
 }
 
-/* business features */
-.operazioni-business{
+/* business feature */
+.title-business-feature{
     margin-top: 6rem;
 }
 
@@ -204,7 +194,7 @@ hr{
     filter: invert(1);
 }
 
-/* non riesco a mettere il bordo chiaro */
+        /* non riesco a mettere il bordo chiaro */
 .square-left-1{
     background-color: #a2d39b;
 }
