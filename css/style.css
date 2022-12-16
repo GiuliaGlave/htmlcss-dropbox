@@ -6,6 +6,7 @@
 .small-container{
     width: 50vw;
     margin: auto;
+    padding-top: 4rem;
 }
 
 /* background */
@@ -19,7 +20,8 @@
 /*header*/
 header{
     width: 100vw;
-    position: fixed;
+   /*  position: fixed; */
+    z-index: 1;
     background-color: white;
     padding: 1rem;
     display: flex;
@@ -42,27 +44,40 @@ header{
 .img-col{
     min-width: 70%;
     position: relative;
-    top: 2rem;
+    top: 3rem;
 }
 
 .text-col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 2rem;
+    justify-content: space-around;
+    margin-top: 1rem;
 }
 
 .fa-arrow-down{
     font-size: 36px;
 }
 
-/*main-section-top*/
+/*business plan*/
+
+.business-plan-contanier{
+    padding-top: 4rem;
+}
+
 .select-plan{
     display: flex;
     align-items: center;
+    gap: 3rem;
+    padding-top: 2rem;
 }
 
+.fa-circle-dot{
+    color: #0061ff;
+}
+.fa-circle{
+    color: lightgray;
+}
 .container-plan-option{
     display: flex;
     gap: 2rem;
@@ -70,20 +85,22 @@ header{
 }
 
 .col{
-  border: solid; 
+  border: solid thin lightgray;
   display: block; 
   margin-top: 3rem;
 }
 
 .top-col{
     text-align: center;
-    border-bottom: solid;
+    border-bottom: solid thin lightgray;
     padding: 0.3rem;
 }
 
 .main-col{
     padding: 2rem 1rem 2rem;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
 .price{
     font-weight: 700;
@@ -97,7 +114,12 @@ header{
     padding: 1rem 0;
 }
 
+.col .button-blue{
+    padding-left: 1rem;
+}
+
  hr{
+    border-bottom: solid thin lightgray;
     height: 0;
     width: 20%;
 }
@@ -106,7 +128,7 @@ header{
 .ufficio-vendite {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
 /* trova partner */
