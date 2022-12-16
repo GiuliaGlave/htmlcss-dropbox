@@ -117,6 +117,7 @@ header{
 }
 
  hr{
+    border-color: transparent;
     border-bottom: solid thin lightgray;
     height: 0;
     width: 20%;
@@ -244,7 +245,6 @@ header{
 
 /* main-section-bottom */
 
-
 .free-trial-container{
     display: flex;
     justify-content: space-between;
@@ -256,12 +256,23 @@ header{
     width: 50%;
     color: #610843;
 }
+
 /* faq */
 .faq{
-    border-top: #333333 1px;
+    padding: 5rem 0;
+}
+
+.faq-content{
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
+}
+
+.hr-faq{
+    width: 100%;
+    border-color: transparent;
+    height: 0;
+    border-top-color: gray;
 }
 /* footer */
 footer{
@@ -303,8 +314,4 @@ footer{
 
 }
 
-.hr-faq{
-    width: 100%;
-    border-color: #333333;
-    height: 0;
-}
+
