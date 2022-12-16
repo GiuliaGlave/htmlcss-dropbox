@@ -96,7 +96,7 @@ NON DOVREBBE SERVIRE FLEX
 }
 
  hr{
-    border: 1 0 0 solid;
+    height: 0;
     width: 20%;
 }
 
@@ -149,29 +149,76 @@ NON DOVREBBE SERVIRE FLEX
 }
 
 /*partner*/
-.partner{
+.partner-container{
    display: flex;
    justify-content: space-between;
+   width: 100vw;
     
     /* debug */
-    background-color: red;
+    background-color: #f5f5f5;
     
 }
 
-.sponsor-left, .sponsor-right, .sponsor-text{
+.partner-container > * {
     display: flex;
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-direction: row;
     flex-wrap: wrap;
-    object-fit: contain;
 }
 
 .square{
     display: flex;
-    width: 15rem;
-    height: 15rem;
+    width: 50%;
+    min-height: 50%;
     background-color: yellow;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
 }
+
+.img-square{
+    filter: invert(1);
+}
+
+/* non riesco a mettere il bordo chiaro */
+.square-left-1{
+    background-color: #a2d39b;
+}
+.square-left-2{
+    background-color: #61082b;
+}
+.square-left-3{
+    background-color: #0093ce;
+}
+.square-left-4{
+    background-color: #ff1c1c;
+}
+
+.partner-sect-center{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.logo-partner{
+    width: 50%;
+}
+
+.square-right-1{
+    background-color: #d5001f;
+}
+.square-right-2{
+    background-color: #b4d0e7;
+}
+.square-right-3{
+    background-color: #0d2481;
+}
+.square-right-4{
+    background-color:#ffd830;
+}
+
 
 /* main-section-bottom */
 
