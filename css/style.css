@@ -116,7 +116,7 @@ header{
     padding-left: 1rem;
 }
 
- hr{
+hr{
     border-color: transparent;
     border-bottom: solid thin lightgray;
     height: 0;
@@ -261,11 +261,13 @@ header{
 .faq{
     padding: 5rem 0;
 }
-
+.faq-title{
+    padding-bottom: 2rem;
+}
 .faq-content{
-    padding: 1rem 0;
+    padding: 2rem 0;
     display: flex;
-    justify-content: space-between;
+    gap: 7rem;
 }
 
 .hr-faq{
