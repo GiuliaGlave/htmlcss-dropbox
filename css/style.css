@@ -9,6 +9,7 @@
 .small-container{
     width: 50vw;
     margin: auto;
+    padding-bottom: 7rem;
 
 
     /* debug */
@@ -136,12 +137,16 @@ NON DOVREBBE SERVIRE FLEX
 .business-feature{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
     justify-content: space-between
 }
 
 .card-feature{
     width: calc(100% / 3 - 2rem);
+}
+
+.ad-business{
+    padding: 9rem 0 3rem;
+    width: 66%;
 }
 
 /*partner*/
